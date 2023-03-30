@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    height: 88vh;
+    
+}
+#container{
+    width: 100%;
+    height: 83vh;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top:1px solid white;
+
+
+
+}
+#Chania{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #9828c8;
+    width: 100%;
+    height: 110px;
+    color: white;
+    font-size: large;
+}
+#Chania>h1{
+    position: relative;
+    top: auto;
+    left: 10px;
+}
+#div2{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    height: 360px;
+    
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 18%;
+    height: max-content;
+    color: white;
+    position: relative;
+    top: 3px;
+    left: 0px;
+
+
+}
+.left{
+    background-color: hsl(196.8deg 72.12% 59.22%);
+    margin-top: 3px;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 24px;
+    border-radius: 3px;
+    width: 250px;
+    height: 30px;
+    
+}
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    color: black;
+    position: relative;
+    top: 10%;
+    left:2%;
+    height: 320px;
+    
+    
+}
+#center>h2{
+       /* margin-bottom: 15px; */
+       border: 10px solid white;
+       font-size: xx-large;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 320px;
+     text-align: center;
+    /* border: 10px solid white; */
+    position: relative;
+    top: 3%;
+    right: 0%;
+    background-color: hsl(196.8deg 72.12% 59.22%);
+    color: white;
+    font-size: 20px;
+}
+#right>#p1{
+    position: relative;
+    top: 3px;
+    right: 0px;
+    
+    
+}
+#bottomcenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(196.8deg 72.12% 59.22%);
+    width: 100%;
+    height: 50px;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+@media (max-width: 1800px){
+    #container{
+        width: 100%;
+        height: 88vh;
+        background-color: white;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-top:1px solid white;
+        display:list-item;
+    }
+}
+   
+@media (max-width:1600px){
+    #Chania{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #2906b7;
+        width: 100%;
+        height: 110px;
+        color: white;
+        font-size: small;
+    }
+    
+}
+@media (max-width:1400px) {
+    #right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:fit-content;
+        height:fit-content;
+        text-align: center;
+        position: relative;
+        top: 16%;
+        right: 0%;
+        background-color: hsl(70, 98%, 49%);
+        color: rgb(246, 7, 7);
+        font-size: 16px;
+        display: block;
+    }
+}
+@media (max-width:1300px) {
+    #div2{
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: space-around;
+        height: 360px;
+        display: list-item;
+        
+    }
+}
+@media (max-width:1200px) {
+    #center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        color: rgb(4, 246, 12);
+        position: relative;
+        top: 10%;
+        left:2%;
+        height: fit-content;
+        
+        
+    }
+}
+@media (max-width:1200px) {
+    body{
+        background-color: black;
+        height: 100vh;
+        
+    }
+    #container{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-top:1px solid white;
+    
+    
+    
+    }
+}
+@media (max-width:1200px) {
+    #bottomcenter{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(301, 89%, 46%);
+        width: 100%;
+        height: 50px;
+        color: white;
+        position: relative;
+        bottom: 10px;
+        display:none;
+    }
+}

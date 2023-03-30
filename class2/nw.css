@@ -1,0 +1,281 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Lato, sans-serif !important;
+    
+
+}
+#navbar{
+    background-color: #98189a;
+    color: white;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient( to right,#2b3873,  #98189a);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+#logo{
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+    margin-left:20px;
+    margin-top:10px;
+    color: white;
+}
+#navbar-td1{
+    width: 40%;
+}
+#navbar-td2{
+    /* width: 50%; */
+}
+.navbar-select{
+    /* width: 5%; */
+    margin-right: 5%;
+    color: white;
+    background-color: #98189a;
+}
+.navbar-select:hover{
+           color: white;
+           background-color: #98189a;
+
+}
+.navbar-select>option:hover{
+    color: white;
+           background-color: #98189a;
+}
+.navbar{
+    width: 5%;
+    margin-right: 5%;
+}
+img{
+    height: 50;
+    width: 100%;
+    margin-top: 35px;
+}
+#course-info{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+    max-width: 600px;
+
+}
+
+#course{
+    color:#98189a;
+    display: inline;
+    
+    margin-left: 20%;
+    /* margin-right: 20%; */
+    text-decoration: underline #98189a;
+}
+#note{
+    color: red;
+    font-family:Lato, sans-serif ;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 18px;
+   
+}
+/* div{
+    text-align: center,;
+    padding:40px
+    te
+}
+span{
+    padding: 20px;
+} */
+.table{
+    border: 1px solid white;
+   
+    
+    
+    padding:10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 200px;
+
+    
+}
+.td{
+    border: 3px solid white;
+    /* margin: 30px; */
+    /* padding: 20px; */
+    font-size:  18px;
+    background-color:rgb(246 248 250);
+    padding: 10px !important;
+    font-family: Lato, sans-serif !important;
+    font-weight: 700;
+    font-size: 25px;
+} 
+#apply{
+    color: white;
+    background-image: linear-gradient( to right,#9ba6dc,  #98189a);
+    border-color:white;
+    text-align: center;
+    width: 160px;
+    height: 50px;
+    border-radius: 7px;
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+
+.mobileapp{
+    background-color: white;
+}
+.mobileapp>tr>td{
+             margin-left: 40%;
+}
+h2{
+    margin-right: 20%;
+}
+.mobileapp-td1{
+    width:50%;
+}
+.mobileapp-td1-div{
+    margin-left: 40px;
+    margin-top: -30px;
+}
+.mobileapp-td1-div>h2{
+    margin-bottom:60px ;
+}
+.mobileapp-td1-div>h2>span{
+      color:#98189a;
+      font-size: xx-large;
+      font-weight: bolder;
+    
+}
+
+.mobileapp-td2{
+    width:50%;
+}
+#mobileapp-img{
+    margin-top: 40px;
+    vertical-align: middle;
+    border-style: none;
+    margin-right: 10%;
+    margin-left: 20%;
+    width: auto;
+    height: 500px;
+}
+
+
+.span1{
+    text-align: justify;
+    margin-left: 10%;
+    font-size: 70px;
+    font-family: Lato, sans-serif;
+
+   
+}
+/* #span1{
+    margin-left: 10%;
+} */
+#what{
+  color: #98189a;
+        
+}
+
+#classspan{
+    text-align: justify;
+    margin-left: 10%;
+    font-size: 25px;
+    font-family: Lato, sans-serif;
+    margin-top: 40px;
+}
+.p-span{
+    margin-top: 60px;
+}
+.span{
+    color:#98189a;
+    
+}
+
+.footer{
+    background-image: linear-gradient( to right,#2b3873,  #98189a);
+    width: 100%;
+    height: 200px;
+    margin-top: 60px;
+    color: white;
+    
+}
+.footer-td1{
+    width: 30%;
+    margin-top:50px;
+    
+}
+.footer-td1-p1{
+    
+    margin-left: 70px; 
+     margin-right: 50px;
+   
+}
+.footer-td2{
+    width: 30%;
+    /* margin-top:50px; */
+    border:1px solid red;
+}
+.footer-td2-p{
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: -20px; */
+}
+#about{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#about{
+    text-align: justify;
+    
+
+}
+h6{
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+address>p1{
+    padding-top: 3%;
+    font-size: 14px;
+}
+.img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;  
+    border-radius: 6px;          
+}
+.linkingp1{
+        margin-top: 5px;
+}
+.linkingp1>a{
+        color: white;
+        text-decoration: none;
+        
+}
+.copyright{
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient( to right,rgb(97 38 149),  #612695);
+}
+#lastspan{
+    color: 
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: grey;
+}
+
+div{
+    width: 600px;
+    max-width: 600px;
+    min-width:600px ;
+    height: 600px;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+/* #div{
+    position: relative;
+    width: 600px;
+    max-width: 600px;
+    min-width:600px ;
+    height: 600px;
+    background-color: aqua;
+    margin-left: 50px;
+    margin-right: 10px;
+} */
+#p1{ background-image: url();
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+    border: 1px solid red;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+  } 
+   #p2{
+    /* background-image: url(./../../images/Environmental-Science-Ecosystem-600.jpg); */
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 4;
+    border: 1px solid rgb(72, 0, 255);
+    background-color: rgb(72, 0, 255);
+    width: 100px;
+    height: 100px;
+   }
+   #p3{
+    /* background-image: url(./../../images/Environmental-Science-Ecosystem-600.jpg); */
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 3;
+    border: 1px solid pink;
+    background-color: pink ;
+    width: 100px;
+    height: 100px;
+   }
+   #p4{
+    /* background-image: url(./../../images/Environmental-Science-Ecosystem-600.jpg); */
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+    border: 1px solid yellow;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+   }
+   #p5{
+    /* background-image: url(./../../images/Environmental-Science-Ecosystem-600.jpg); */
+    
+    position: absolute;
+    left: 250px;
+    top:250px;
+    z-index: 1;
+    border: 1px solid gray;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+   }
